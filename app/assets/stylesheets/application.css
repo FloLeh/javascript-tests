@@ -29,14 +29,14 @@
    display: flex;
  }
 
- h1 {
+ .title {
    margin: 0;
    padding: 30px;
    text-align: center;
    font-size: 4em;
 
  }
- h1:after {
+ .title:after {
    content: '|';
    animation: blink 1s infinite;
  }
