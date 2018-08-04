@@ -7,7 +7,6 @@
     <meta charset="utf-8">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
@@ -35,7 +34,6 @@
           <a href="">Page5</a>
           <div class="souligner"></div>
         </div>
-          <input type="submit" class="bout" value="Scroll down"></input>
         </div>
       </div>
     </header>
@@ -103,9 +101,9 @@
         <li><a href="">GitHub</a></li><i class="fab fa-github"></i>
       </ul>
     </footer>
-    <%= javascript_include_tag 'jquery-3.3.1', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'ScrollTrigger.min', 'data-turbolinks-track': 'reload' %>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= yield %>
+
   </body>
 </html>
